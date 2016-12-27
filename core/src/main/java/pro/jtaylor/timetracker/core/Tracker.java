@@ -13,6 +13,7 @@ public class Tracker {
 
     public void add(TimeEntry entry) {
         {
+            int k;
         entries.add(entry);
         }
     }
@@ -28,6 +29,7 @@ public class Tracker {
     }
 
     public TimeEntry get(int index) {
+        int j;
         return entries.get(index);
     }
 }
