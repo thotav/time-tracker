@@ -22,7 +22,6 @@ public class Tracker {
         entries.remove(entry);
         }
     }
-error
     public int size() {
         return entries.size();
     }
