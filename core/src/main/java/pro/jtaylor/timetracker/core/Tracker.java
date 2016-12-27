@@ -22,7 +22,7 @@ public class Tracker {
         entries.remove(entry);
         }
     }
-
+error
     public int size() {
         return entries.size();
     }
@@ -30,5 +30,5 @@ public class Tracker {
     public TimeEntry get(int index) {
         return entries.get(index);
     }
-};
+}
 
